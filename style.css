@@ -1,0 +1,61 @@
+body{
+    margin:0;
+    padding:0;
+}
+.box{
+height:100px;
+width:100px;
+padding:10px 0px 30px 50px;/* top right bottom left*/
+border:5px solid gold;
+ 
+ /* border-top-left-radius:10px;
+ border-left:10px solid rgb(199, 26, 185);
+ border-right:10px solid rgb(128, 0, 100);
+ border-top:10px solid rgb(0, 255, 166);
+ border-bottom:10px solid yellow; */
+ border:20px rgb(113, 52, 14) solid;
+
+
+margin:10px;
+border-radius: 50 20 40 60;
+box-sizing:border-box;
+background-color:silver;
+box-shadow:10px 10px 5px gold;
+}
+.red{
+    background-color:red;
+    color:white;
+}
+/* .paragraph:hover{
+    color:red;
+} */
+/* ul li:first-child{
+    color:white;
+    background-color:black;
+}
+ul li:last-child{
+    color:white;
+    background-color:hotpink;
+}
+ul li:nth-child(2){
+    color:white;
+    background-color:green;
+}
+     */
+     ul li:nth-child(odd)
+     {
+        color:red;
+        background-color:gold;
+     }
+     ul li:nth-child(even)
+     {
+        background-color:black;
+         color : blue;
+     }
+     .changeBorder:focus{
+        border:10px solid red;
+     }
+     .paragraph::first-letter{
+        font-size:xx-large;
+        color:bold darkgray;
+     }

@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, rgb(193, 178, 195), rgb(0, 191, 255), green);
+  display: flex;    
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  padding: 20px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
